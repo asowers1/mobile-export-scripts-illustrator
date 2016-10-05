@@ -48,17 +48,17 @@ var androidExportOptions = [
 var iosExportOptions = [
     {
         name: "",
-        scaleFactor: 50,
-        type: "ios"
-    },
-    {
-        name: "@2x",
         scaleFactor: 100,
         type: "ios"
     },
     {
+        name: "@2x",
+        scaleFactor: 200,
+        type: "ios"
+    },
+    {
         name: "@3x",
-        scaleFactor: 150,
+        scaleFactor: 300,
         type: "ios"
     }
 ];
